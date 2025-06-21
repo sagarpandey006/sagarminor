@@ -35,8 +35,8 @@ app.use(cors({
 //api 
 app.use("/api/v1/user", userRoute);
 
-app.listen(process.env.PORT, () => {
-      console.log(`server listen at Port ${process.env.PORT}`);
-})
+// app.listen(process.env.PORT, () => {
+//       console.log(`server listen at Port ${process.env.PORT}`);
+// })
 
 export { app }
